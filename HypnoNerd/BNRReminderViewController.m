@@ -51,7 +51,7 @@
 {
     //Always call the supre implementation of viewDidLoad
     [super viewDidLoad];
-    NSLog(@"BNRHypnosisViewController loaded its view.");
+    NSLog(@"BNRReminderViewController loaded its view.");
 }
 
 @end
