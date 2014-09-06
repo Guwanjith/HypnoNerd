@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRReminderViewController">
             <connections>
+                <outlet property="datePicker" destination="bdq-Tl-2Is" id="uod-jJ-qpN"/>
                 <outlet property="view" destination="V5Q-KE-0gK" id="iKI-qN-fi6"/>
             </connections>
         </placeholder>
@@ -43,11 +44,14 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     </timeZone>
                 </datePicker>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAB-DT-hZb">
-                    <rect key="frame" x="20" y="311" width="280" height="67"/>
+                    <rect key="frame" x="20" y="305" width="280" height="67"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Remind Me!">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="addReminder:" destination="-1" eventType="touchUpInside" id="lHm-Ym-20P"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
