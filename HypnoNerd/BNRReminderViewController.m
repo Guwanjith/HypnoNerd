@@ -21,6 +21,12 @@
     // this does not work correctly, it defaults to GMT and I am in GMT+1
     NSDate *date = self.datePicker.date;
     NSLog(@"Setting a reminder for: %@", date);
+    
+    UILocalNotification *note = [[UILocalNotification alloc] init];
+    note.alertBody = @"Hypnotize me!";
+    note.fireDate = date;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:note];
 }
 
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
