@@ -54,4 +54,12 @@
     NSLog(@"BNRReminderViewController loaded its view.");
 }
 
+//The following occurs EVERY time the view appears, not just the first time.
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
+
 @end
