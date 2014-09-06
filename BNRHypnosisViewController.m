@@ -25,7 +25,7 @@
     [backgroundView addSubview:textField];
     
     //Adding placeholder text and adjusting keyboard
-    textField.placeholder = @"Hympnotize me";
+    textField.placeholder = @"Hypnotize me";
     textField.returnKeyType = UIReturnKeyDone;
     
     //Set it as *the* view of this controller
