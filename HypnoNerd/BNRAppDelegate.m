@@ -26,8 +26,11 @@
     //Look in the appBundle for the file BNRReminderViewController.xib
     BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
     
-    //Change root view controller to rvc
-    self.window.rootViewController = rvc;
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc,rvc];
+    
+    //Change root view controller to TabBarController
+    self.window.rootViewController = tabBarController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
