@@ -43,7 +43,11 @@
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    NSLog(@"%@", textField.text);
+    [self drawHypnoticMessage:textField.text];
+    
+    textField.text = @"";
+    [textField resignFirstResponder];
+    
     return YES;
 }
 
