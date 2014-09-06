@@ -39,4 +39,11 @@
     }
     return self;
 }
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSLog(@"BNRReminderViewController loaded its view");
+}
+
 @end

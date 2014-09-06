@@ -46,4 +46,12 @@
     }
     return self;
 }
+
+-(void)viewDidLoad
+{
+    //Always call the supre implementation of viewDidLoad
+    [super viewDidLoad];
+    NSLog(@"BNRHypnosisViewController loaded its view.");
+}
+
 @end
