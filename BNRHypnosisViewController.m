@@ -24,6 +24,10 @@
     textField.borderStyle = UITextBorderStyleRoundedRect;
     [backgroundView addSubview:textField];
     
+    //Adding placeholder text and adjusting keyboard
+    textField.placeholder = @"Hympnotize me";
+    textField.returnKeyType = UIReturnKeyDone;
+    
     //Set it as *the* view of this controller
     self.view = backgroundView;
 }
