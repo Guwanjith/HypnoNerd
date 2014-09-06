@@ -18,7 +18,11 @@
 
 -(IBAction)addReminder:(id)sender
 {
+    // this does not work correctly, it defaults to GMT and I am in GMT+1
     NSDate *date = self.datePicker.date;
-    NSLog(@"Setting a reminder for %@", date);
+    NSLog(@"Setting a reminder for: %@", date);
+    
+    
+    
 }
 @end
