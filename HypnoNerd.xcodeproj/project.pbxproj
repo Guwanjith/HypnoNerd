@@ -19,6 +19,7 @@
 		F2D8C29519BAE84000C534D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D8C27D19BAE84000C534D6 /* UIKit.framework */; };
 		F2D8C29D19BAE84000C534D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2D8C29B19BAE84000C534D6 /* InfoPlist.strings */; };
 		F2D8C29F19BAE84100C534D6 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C29E19BAE84100C534D6 /* HypnoNerdTests.m */; };
+		F2D8C2AA19BAE8A800C534D6 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C2A919BAE8A800C534D6 /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F2D8C29A19BAE84000C534D6 /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
 		F2D8C29C19BAE84000C534D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2D8C29E19BAE84100C534D6 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		F2D8C2A819BAE8A800C534D6 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		F2D8C2A919BAE8A800C534D6 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		F2D8C26D19BAE84000C534D6 = {
 			isa = PBXGroup;
 			children = (
+				F2D8C2A819BAE8A800C534D6 /* BNRHypnosisView.h */,
+				F2D8C2A919BAE8A800C534D6 /* BNRHypnosisView.m */,
 				F2D8C27F19BAE84000C534D6 /* HypnoNerd */,
 				F2D8C29819BAE84000C534D6 /* HypnoNerdTests */,
 				F2D8C27819BAE84000C534D6 /* Frameworks */,
@@ -242,6 +247,7 @@
 			files = (
 				F2D8C28619BAE84000C534D6 /* main.m in Sources */,
 				F2D8C28A19BAE84000C534D6 /* BNRAppDelegate.m in Sources */,
+				F2D8C2AA19BAE8A800C534D6 /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
