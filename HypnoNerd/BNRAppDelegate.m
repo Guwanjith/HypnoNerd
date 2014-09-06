@@ -16,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    //Creating a root View Controller
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
     
     self.window.rootViewController = hvc;
