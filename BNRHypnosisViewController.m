@@ -22,16 +22,26 @@
     
     //Setting the border style on the field will allow us to see it more easily
     textField.borderStyle = UITextBorderStyleRoundedRect;
-    [backgroundView addSubview:textField];
+   
     
     //Adding placeholder text and adjusting keyboard's return key to say done instead.
     textField.placeholder = @"Hypnotize me";
     textField.returnKeyType = UIReturnKeyDone;
     
+    //There will be a warning on this line.
+    textField.delegate = self;
+    
+    [backgroundView addSubview:textField];
+    
     //Set it as *the* view of this controller
     self.view = backgroundView;
 }
 
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    NSLog(@"%@", textField.text);
+    return YES;
+}
 
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
