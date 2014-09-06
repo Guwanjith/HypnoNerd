@@ -47,6 +47,7 @@
     return self;
 }
 
+//Called after a view controller is created.
 -(void)viewDidLoad
 {
     //Always call the supre implementation of viewDidLoad
@@ -54,7 +55,7 @@
     NSLog(@"BNRReminderViewController loaded its view.");
 }
 
-//The following occurs EVERY time the view appears, not just the first time.
+//The following occurs EVERY time the view appears, not just after the view controller is created.
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

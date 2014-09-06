@@ -17,6 +17,13 @@
     CGRect frame = [UIScreen mainScreen].bounds;
     BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] initWithFrame:frame];
     
+    CGRect textFielRect = CGRectMake(40, 70, 240, 30);
+    UITextField *textField = [[UITextField alloc] initWithFrame:textFielRect];
+    
+    //Setting the border style on the field will allow us to see it more easily
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    [backgroundView addSubview:textField];
+    
     //Set it as *the* view of this controller
     self.view = backgroundView;
 }
@@ -40,6 +47,7 @@
     return self;
 }
 
+//Called right after a view controller is created.
 -(void)viewDidLoad
 {
     [super viewDidLoad];
