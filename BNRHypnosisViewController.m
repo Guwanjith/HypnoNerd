@@ -24,7 +24,7 @@
     textField.borderStyle = UITextBorderStyleRoundedRect;
     [backgroundView addSubview:textField];
     
-    //Adding placeholder text and adjusting keyboard
+    //Adding placeholder text and adjusting keyboard's return key to say done instead.
     textField.placeholder = @"Hypnotize me";
     textField.returnKeyType = UIReturnKeyDone;
     
