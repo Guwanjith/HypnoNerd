@@ -22,6 +22,7 @@
 		F2D8C2AA19BAE8A800C534D6 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C2A919BAE8A800C534D6 /* BNRHypnosisView.m */; };
 		F2D8C2AD19BAE98500C534D6 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C2AC19BAE98500C534D6 /* BNRHypnosisViewController.m */; };
 		F2D8C2B019BAF60800C534D6 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D8C2AF19BAF60800C534D6 /* BNRReminderViewController.m */; };
+		F2D8C2B219BAF77C00C534D6 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D8C2B119BAF77C00C534D6 /* BNRReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F2D8C2AC19BAE98500C534D6 /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
 		F2D8C2AE19BAF60800C534D6 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
 		F2D8C2AF19BAF60800C534D6 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		F2D8C2B119BAF77C00C534D6 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				F2D8C28919BAE84000C534D6 /* BNRAppDelegate.m */,
 				F2D8C2AE19BAF60800C534D6 /* BNRReminderViewController.h */,
 				F2D8C2AF19BAF60800C534D6 /* BNRReminderViewController.m */,
+				F2D8C2B119BAF77C00C534D6 /* BNRReminderViewController.xib */,
 				F2D8C28B19BAE84000C534D6 /* Images.xcassets */,
 				F2D8C28019BAE84000C534D6 /* Supporting Files */,
 			);
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D8C2B219BAF77C00C534D6 /* BNRReminderViewController.xib in Resources */,
 				F2D8C28419BAE84000C534D6 /* InfoPlist.strings in Resources */,
 				F2D8C28C19BAE84000C534D6 /* Images.xcassets in Resources */,
 			);
